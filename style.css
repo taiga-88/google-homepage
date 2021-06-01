@@ -30,3 +30,11 @@ li {
 .images {
     margin: 14px 5px 0px 5px;
 }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    height: 170px;
+}
