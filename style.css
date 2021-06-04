@@ -17,11 +17,14 @@ li {
 .apps {
     height: 20px;
     margin: 12px 5px 0px 5px;
+    
 }
 
 .naka {
     height: 40px;
+    width: 40px;
     border-radius: 50%;
+    margin-right: -10px;
   
 }
 
@@ -46,6 +49,23 @@ li {
     display: flex;
     justify-content: center;
 }
+
+.searchicon {
+    position: absolute;
+    width: 450px;
+    margin-top: 15px;
+    margin-right: 18px;
+    
+}
+
+.micicon {
+    margin-top: 15px;
+    position: absolute;
+    width: 450px;
+    margin-top: 16px;
+    margin-right: -900px;
+}
+
 .search {
     width: 500px;
     border-radius: 25px;
@@ -63,18 +83,34 @@ li {
     justify-content: center;
     margin-top: 5px;
     align-items: center;
+    
 }
 
 .srchbutton {
     margin-right: 30px;
+    background-color: #f2f2f2;
+    border: solid 0px;
+    height: 50px;
+    width: 120px; 
+    font-family: arial, sans-serif;
+    color: rgb(46, 45, 45);
+}
+
+.luckybutton {
+    background-color: #f2f2f2;
+    border: solid 0px;
+    height: 50px;
+    width: 120px;
+    font-family: arial, sans-serif;
+    color: rgb(46, 45, 45);
 }
 
 .footer {
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 35px;
     background-color: rgba(233, 231, 231, 0.726);
-    margin: 160px 0px  0px -10px;
+    margin: 150px 0px -0px -10px;
     border-top: #c2c0c0 solid 1px;
     padding: 0px 0px 0px 30px;
     color: #f4f4f4;
@@ -117,10 +153,29 @@ a {
     color: #707070;
 }
 
-a:hover {
+.footer a:hover {
     text-decoration: underline;
     color: rgb(68, 68, 68);
 }
+
+a {
+    color: rgb(36, 35, 35);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.srchbutton:hover {
+    box-shadow: 0.5px 0.5px 8px #888888;
+    border: solid 0.5px rgb(170, 168, 168);
+}
+
+.luckybutton:hover {
+    box-shadow: 0.5px 0.5px 8px #888888;
+    border: solid 0.5px rgb(170, 168, 168);
+}
+
 
 
 
