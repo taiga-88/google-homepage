@@ -30,10 +30,14 @@ li {
 
 .gmail {
     margin: 14px 5px 0px 5px;
+    max-width: 100%;
+    height: auto;
 }
 
 .images {
     margin: 14px 5px 0px 5px;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo {
@@ -43,6 +47,8 @@ li {
     width: 1350px;
     height: 330px;
     margin-bottom: -80px;
+    
+    
 }
 
 .searchdad{
@@ -55,6 +61,8 @@ li {
     width: 450px;
     margin-top: 15px;
     margin-right: 18px;
+    max-width: 100%;
+    height: auto;
     
 }
 
@@ -64,6 +72,8 @@ li {
     width: 450px;
     margin-top: 16px;
     margin-right: -900px;
+    max-width: 100%;
+    height: auto;
 }
 
 .search {
@@ -121,6 +131,7 @@ li {
 
 body {
     font-family: arial, sans-serif;
+    
 }
 .footer div {
     margin-right: 45px;
@@ -176,6 +187,44 @@ a:hover {
     border: solid 0.5px rgb(170, 168, 168);
 }
 
+div {
+    max-width: 100%;
+    height: auto;
+}
+
+i {
+    max-width: 100%;
+    height: auto;
+}
+
+@media  (max-width: 660px) {
+    
+html {
+    
+}
+
+.footer {
+    font-size: 9px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.leftside {
+    display: flex;
+}
+
+.prv {
+
+}
+
+
+
+
+    
+}
+
+    
 
 
 
